@@ -4,6 +4,10 @@ import Banner from '../layout/Banner'
 import Clients from '../components/Clients'
 import Community from '../components/Community'
 import About from '../components/About'
+import CallAction from '../components/CallAction'
+import Design from '../components/Design'
+import Footer from '../layout/Footer'
+import CallToAction from '../components/CallToAction'
 
 const Home = () => {
   return (
@@ -13,6 +17,10 @@ const Home = () => {
         <Clients />
         <Community />
         <About />
+        <CallAction />
+        <Design />
+        <CallToAction />
+        <Footer />
     </div>
   )
 }
